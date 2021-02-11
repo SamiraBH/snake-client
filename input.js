@@ -24,6 +24,9 @@ const setupInput = function(conn) {
       if (input === "s") {
         connection.write("Move: down");
       }
+      if (input === "p") {
+        connection.write("You pet the snake not play!");
+      }
     });
   };
   handleUserInput();
